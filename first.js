@@ -45,3 +45,7 @@ myid =42105;
 console.log(myid);
 var myid = 42106;
 console.log(myid);
+
+
+
+
