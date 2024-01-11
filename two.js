@@ -17,6 +17,13 @@ console.log(mydata["grade"])
 for (let a in mydata){
     console.log(a ,mydata [a]);
 }
+
+// ARTHIMATIC OPERATIONS
+
 let a = 55;
 let b = 65;
-console.log("a+b is :",a+b);
+console.log("The sum of a+b is :",a+b);
+console.log("The mult of a*b is :",a*b);
+console.log("The sub of a-b is :",a-b);
+console.log("The div of a/b is :",a/b);
+console.log("The modul of a%b is :",a%b);

@@ -20,6 +20,8 @@ console.table(myName , age , a , b , myCnic);
 // let
 // const
 
+// var example
+
 var city = "KARACHI";
  console.log(city);
 city = "ISLAMABAD";
@@ -37,14 +39,9 @@ var city = "LAHORE";
 
 const pie =3.1416;
 console.log(pie);
-// pie = 4.25;
+pie = 4.25;
+console.log(pie);
 
-var myid = 42101;
-console.log(myid);
-myid =42105;
-console.log(myid);
-var myid = 42106;
-console.log(myid);
 
 
 
