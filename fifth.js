@@ -1,31 +1,20 @@
-// LOOPS
-// FOR LOOP
-
-for (let A = 0; A<=10; A++) {
-    console.log("PJS" , A);
-    
-}
-
-for (let B = 1; B<=10;  B++) {
-console.log("5 x" , B, "=", 5*B);   
+// for loop
+for (let a = 0; a<=10; a++) {
+    console.log("This is PJS" ,a)
     
 }
 
 // WHILE LOOP
-
-let num = 10;
-while (num<15) {
-console.log("This Is While Loop" , num);
-num++;
+let num = 70;
+while (num<75) {
+console.log("This is While Loop",num);
+num++;    
 }
+// DO WHILE LOOP
 
-let myValue =prompt("Enter Your Number");
-for (let c = 1; c<=10;  c++) {
-    console.log(`${myValue} x ${c} = ${myValue*c}`)
-        
-}
-let cValue =prompt("Enter Your Number");
-for (let c = 1; c<=10;  c++) {
-    console.log( cValue , "x " , c , cValue*c)
-        
-    }
+let b = 45;
+
+do {
+    console.log("This do While loop" ,b);
+    b++;
+} while (b<=50);

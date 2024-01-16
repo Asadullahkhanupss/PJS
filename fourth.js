@@ -8,7 +8,7 @@ if (age <=20) {
 }
 
 if (age >=20) {
-    console.log("YOU CAN NOT CAST YOUR VOTE")
+    console.log("YOU CAN CAST YOUR VOTE")
 }
 else{
     console.log("YOU CAN CAST YOUR VOTE")
