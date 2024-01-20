@@ -13,20 +13,20 @@ console.log(ObtainMarks);
 let per = ObtainMarks/500*100
 console.log(per);
 
-if (per>=90 && per<100) {
+if (per >=90 && per<=100) {
     console.log("Your Grade IS A+1");
 }
-else if(per>=80 && per<90) {
+else if(per >=80 && per<=90) {
     console.log("Your Grade IS A+");
 }
-else if (per>=70 && per<80) {
+else if (per >=70 && per<=80) {
     console.log("Your Grade IS B");
 }
-else if (per>=60 && per<70) {
+else if (per >=60 && per<=70) {
     console.log("Your Grade IS C");
 }
 
-else if (per>=50 && per<60) {
+else if (per >=50 && per<=60) {
     console.log("Your Grade IS D");
 }
 else{
