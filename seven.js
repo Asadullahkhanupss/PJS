@@ -24,12 +24,8 @@ hello();
 // let userValue = firstperson("my name is muhammad haziq" ,"i am 17 year old" , "i am studing in Aptech");
 // let choice = user("MS OFFICE" ,"BMW" ,"SEO" ,"JS");
 
-// console.log(userValue);
-
-// let grade = prompt("Enter Your Grade");
-// let result = grade =="A" || grade =="B" || grade =="C" ? "PASS" : "FAIL";
-// console.log(result);
-
+// console.log(userValue,choice);
+// * TURNARY OPERATORS
 
 let grade = prompt("Enter Your Grade");
 let per =prompt("Enter Your Percentage");
