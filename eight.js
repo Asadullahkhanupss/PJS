@@ -11,6 +11,7 @@ console.log(str.toUpperCase());
 console.log(str[5]);
 
 // *Strings are Immutible
+
 let word ="hello" ;
 console.log(word);
 word[0] = "M";

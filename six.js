@@ -3,6 +3,7 @@ console.log(heroes);
 console.log(heroes[1]);
 
 // Array Methods
+
 //LIST MAI ADD KRTA HAI PUSH
 console.log("PUSH");
 console.log(heroes.push("New Man"));
