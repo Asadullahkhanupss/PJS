@@ -31,6 +31,22 @@ Mydiv[0].appendChild(newElem);
 
 newElem.innerHTML = "this is p tag" ;
 
-let newtag =document.createElement('img');
-newElem[0].appendChild(newtag);
-newtag.src = "https://platinumlist.net/guide/wp-content/uploads/2023/03/8359_img_worlds_of_adventure-big1613913137.jpg-1024x683.webp";
+let new1 =document.createElement('h2');
+Mydiv[0].appendChild(new1);
+
+new1.innerHTML = "this is h2 tag";
+
+let new2 =document.createElement('img');
+Mydiv[0].appendChild(new2);
+
+new2.style.height = "500px";
+new2.style.width = "100%";
+new2.src = "car.jpg" ;
+
+let mytag =document.getElementsByTagName('h5');
+mytag[0].style.backgroundColor ="blue";
+mytag[0].style.color ="yellow";
+mytag[0].style.fontSize ="30px";
+mytag[0].style.fontWeight ="900";
+mytag[0].style.textAlign ="center";
+
