@@ -42,12 +42,14 @@ newbtn.className = `mt-3 mx-auto btn-dark` ;
 newbtn.style.display = "block";
 newbtn.style.fontSize = "25px";
 newbtn.style.letterSpacing = "12px";
+newbtn.style.borderRadius = "9px";
 
-newbtn.addEventListener('click' ,input1)
+newbtn.addEventListener('click' ,input1);
 
 function input1() {
     newbtn.value = "" ;
 
 }
+
 
 

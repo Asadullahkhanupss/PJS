@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .center{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            width: 30%;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 4px 4px cyan ;
+        }
+        #togglebtn{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 10px;
+            letter-spacing: 7px;
+            font-weight: bold;
+            font-size: 24px;
+            box-shadow: 3px 3px 4px 4px cyan ;
+        }
+        #mq{
+            color: cyan;
+            letter-spacing: 7px;
+            font-weight: bold;
+            font-size: 24px;
+            box-shadow: 3px 3px 4px 4px teal ;
+        }
+    </style>
+</head>
+<body>
+    <marquee behavior="" direction="" id="mq">Turn On</marquee>
+    <img src="off.png" class="center" id="bulb" alt="">
+    <button class="btn btn-outline-warning fw-bold" id="togglebtn">Turn On</button>
+
+    <script src="./light.js"></script>
+</body>
+</html>
