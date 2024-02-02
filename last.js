@@ -18,3 +18,11 @@ function addFood(a) {
     let parentlist = document.getElementById('parentlist');
     parentlist.appendChild(newli);
 }
+
+
+btn.addEventListener('click' , clear)
+
+function clear(b) {
+    console.log(clear);
+}
+clear(b);
